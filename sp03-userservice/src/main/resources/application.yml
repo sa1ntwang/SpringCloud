@@ -5,7 +5,11 @@ sp:
 spring:
   application:
     name: user-service
-    
+  rabbitmq:
+    host: 192.168.111.128
+    port: 5672
+    username: tw
+    password: 892593  
 server:
   port: 8101
 eureka:
